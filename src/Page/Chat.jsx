@@ -39,7 +39,7 @@ function Chat() {
             // --- QUAN TRỌNG: SỬA LINK VỀ LOCALHOST ---
             console.log("Đang gửi tin nhắn đến Backend..."); // Log để kiểm tra
             
-            const response = await fetch("http://localhost:5000/api/chat", {
+            const response = await fetch("https://graphragbirdbackend.onrender.com/api/chat", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json",
